@@ -140,3 +140,23 @@
 +defaults/win-64::scipy-1.17.1-py313h97a0a95_1
 +defaults/win-64::threadpoolctl-3.5.0-py313h4442805_1
 # update specs: ['scikit-learn']
+==> 2026-05-11 16:50:42 <==
+# cmd: C:\Users\namde\anaconda3\Scripts\conda-script.py install xgboost
+# conda version: 25.11.0
++defaults/noarch::cuda-cudart_win-64-12.9.79-hd7fb8db_0
++defaults/noarch::cuda-version-12.9-h9deaac8_3
++defaults/win-64::_py-xgboost-mutex-2.0-gpu_3
++defaults/win-64::cuda-cudart-12.9.79-hd7fb8db_0
++defaults/win-64::cuda-nvrtc-12.9.86-hd7fb8db_0
++defaults/win-64::libxgboost-3.2.0-cuda129_h249bfd4_103
++defaults/win-64::py-xgboost-3.2.0-cuda129_py313hf398c1c_103
++defaults/win-64::xgboost-3.2.0-cuda129_py313hf398c1c_103
+# update specs: ['xgboost']
+==> 2026-05-11 16:52:39 <==
+# cmd: C:\Users\namde\anaconda3\Scripts\conda-script.py install -c conda-forge py-xgboost
+# conda version: 25.11.0
+-defaults/win-64::ca-certificates-2026.3.19-haa95532_0
+-defaults/win-64::openssl-3.5.6-hbb43b14_0
++conda-forge/noarch::ca-certificates-2026.4.22-h4c7d964_0
++conda-forge/win-64::openssl-3.6.2-hf411b9b_0
+# update specs: ['py-xgboost']
