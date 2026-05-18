@@ -5,7 +5,8 @@ import pandas as pd
 from src.pipeline.predict_pipeline import PredictPipeline,CustomData
 from sklearn.preprocessing import StandardScaler
 
-app = Flask(__name__)
+application = Flask(name)
+app = application
 
 # Route for homepage
 @app.route('/')
