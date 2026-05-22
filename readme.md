@@ -282,12 +282,6 @@ ECS → Update service → Desired tasks: 1
 
 ---
 
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
 ## 👨‍💻 Author
 
 **Ravi Namdeoo**  
