@@ -41,8 +41,6 @@ class ModelTrainer:
                 "Decision Tree" : DecisionTreeRegressor(),
                 "Gradient Boosting" : GradientBoostingRegressor(),
                 "Linear Regressor" : LinearRegression(),
-                "XGB Regressor" : XGBRegressor(),
-                "Cat boost Regressor" : CatBoostRegressor(),
                 "Ada boost Regressor" : AdaBoostRegressor()
             }
 
@@ -67,15 +65,6 @@ class ModelTrainer:
                     'n_estimators': [8,16,32,64,128,256]
                 },
                 "Linear Regressor":{},
-                "XGB Regressor":{
-                    'learning_rate':[.1,.01,.05,.001],
-                    'n_estimators': [8,16,32,64,128,256]
-                },
-                "Cat boost Regressor":{
-                    'depth': [6,8,10],
-                    'learning_rate': [0.01, 0.05, 0.1],
-                    'iterations': [30, 50, 100]
-                },
                 "Ada boost Regressor":{
                     'learning_rate':[.1,.01,0.5,.001],
                     # 'loss':['linear','square','exponential'],
